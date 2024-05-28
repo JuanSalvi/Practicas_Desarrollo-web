@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #222831;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Selector por pseudo elemento*/
+h2::first-letter {
+    color: #1eb8a3;
+}
+
+
+/*Selector por ATRIBUTO*/
+ i[class*="fa-brands"] {
+    color: #ffffff;
+    margin: 5px;
+    font-size: 30px;
+}
+
+i:hover {
+    color: #02b2be;
+    font-size: 40px;
+    margin: 0;
+}
+
+
+/* CLASES de Otros elementos */
+.info {
+    color: #fff;
+    text-align: center;
+    font-size: larger;
+
+}
+ /* Footer*/
+
+  /*Titulo*/
+.footer > * {
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+
+.boton {
+    background-color: transparent;
+    border: 4px solid white;
+    color: white;
+    padding: 15px 32px;
+}
+
+.boton a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Selectores tipo Pseudo-clase*/
+.boton:hover 
+{
+    border: 5px solid #02b2be;
+    color: #02b2be;
+    font-weight: bold;
+}
+
+.boton:hover a {
+    color: #02b2be;
+    font-weight: bold;
+}
+
+
+.line{
+    color: #fff;
+    width: 50%; /* Ajusta el ancho como desees */
+    margin: 10px auto; /* Centra la línea */
+    opacity: 0.4;
+
+}
+
+/*Afectacion de etiquetas <span>*/
+
+.bolds {
+    font-weight: bold;
+    color: #02b2be;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Maquetado con GRID*/
+
+.grid_container {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "cont   cont   cont"
+        "galeria galeria galeria"
+        "footer footer footer";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.header > h1 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.cont {
+    grid-area: cont;
+    /* background-color: #ada452; */
+}
+
+/* Grid de imagenes */
+.galeria_grid {
+    display: grid;
+    grid-area: galeria;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.imagen{
+    grid-area: imagen;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* FIN Maquetado con GRID*/
