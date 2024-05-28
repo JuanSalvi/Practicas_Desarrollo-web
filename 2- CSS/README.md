@@ -1,24 +1,31 @@
-# Proyecto 1 - HTML | Algo sobre mi
+# Proyecto 2 - CSS | Dando estilo a Algo sobre mi 
 
-> Dentreo de esta prectica se busca abordar los fundamentos basicos de HTML siendo este el esqueleto para dar forma con otros complementos posteriores como lo son CCS y JS, dando como puntos para este proyecto algunos elementos básicos para estrucutar nuestra información sin dale estilo aun usando las etiquetas HTML para daptar y mostar nuestros datos.
+>Teniendo las bases de CSS daremos un estilo con lo abrendido desde como se agrega la hoja de estilos hasta el seleccionar de distuntas maneras cada elemento de HTML para darle una vista distinta además de darnos como punto de practica el maquetado siendo por GRID estableciendo columnas y filas para separar y luego rellenar con la informacíon que anteriormente colocamos en el proyecto de HTML.
 
 **Para la esta practica se busca conseguir lo siguiente:**
 
- - [x] Organizar el  texto en titulos jerarquicos (H1,H2,H3...)
- - [x] Uso de Imagenes.
- - [x] Uso minimo de 3 etiquetas para dar formato a nuestro texto. (Negritas, Cursiva, Remarcar,etc.)
- - [x] Dividir el sitio en dos partes teniendo comunicacion una de otra. 
+ - [x] Agregar la etiqueta "link" correspondiente al CSS en el archivo HTML
+ - [x] Utilizar minimo 2 clases.
+ - [x] Utilizar la etiqueta div y span.
+ - [x] Remplazar las etiquetas para dar formato a nuestro texto por "span". (Negritas, Cursiva, Remarcar,etc.)
+ - [x] Utilizar los tipos de selector (Tipo,Clase,ID,Atributo,Pseudo-clase y Pseudo-elemento)
+ - [x] Uti.izar los selectores tipo combinadores. (Desendiente, Hijo directo ">", Hermanos Adjacentes "+", Hermanos Generales "~")
+
+**Metas personales:**
+ - [x] Utilizar "GRID" para maquetación.
+ - [x] Utilizar el mismo "GRID" para recrear la galeria de imagenes (Anidando grid)
+ - [x] Utilizar iconos.
 
 ## Resultados
 
 ### Página principal - index.html
-![image](https://github.com/JuanSalvi/Practicas_Desarrollo-web/assets/91103822/57c0986a-eacc-4d22-a22b-5eeb44103d6e)
+
+![Mi Biografia_page-0001](https://github.com/JuanSalvi/Practicas_Desarrollo-web/assets/91103822/298df630-5902-4357-b916-98114fb138d6)
 > [!NOTE]
-> Para esta primera página solo se busca dar información basica como biografia y datos sobre mi asi para utilizar difertentes puntos a cumplir dentro de la practica.
+> En esta actualización agregamos centrado posicionamiento gracias a "GRID" para cada elemento asi como iconos estos asi como el boton tienen el atributo ":hover" ademas de resaltar y cambiar el texto.
 
 
 ### Página Secundaria - Pag2.html
-![Mis gustos_page-0001](https://github.com/JuanSalvi/Practicas_Desarrollo-web/assets/91103822/6bdda9ce-265f-47a4-b2e3-c7878b4e6e9c)
-
+![Mis gustos_page-0001](https://github.com/JuanSalvi/Practicas_Desarrollo-web/assets/91103822/060edf64-d04d-4a54-9758-d9ec528cadf9)
 > [!NOTE]
-> Aqui se establece al igual texto para explicar un poco más del tema pero con ello se establecen acomodos de imagenes mediante el uso de tablas para que tenga una alineacion y un orden al no tener CSS y dando una mini galeria de imagenes.
+> En este apartado gracias a "GRID" establecemos un grid para dividir en filas y columnas las imagenesa si estas tengan un posicionamanieto ademas de darles efecctos alos iconos y el botón.
