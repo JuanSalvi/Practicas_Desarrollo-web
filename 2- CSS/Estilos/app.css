@@ -179,6 +179,7 @@ h3 ~ p {
     grid-template-columns: 300px repeat(2, 1fr);
     grid-template-rows: 200px 1fr auto;
     height: 100vh;
+
 }
 
 .imagen {
@@ -190,7 +191,6 @@ h3 ~ p {
     grid-area: header;
 
     background-color: #76ABAE;
-  
 }
 
 .sidebar {
